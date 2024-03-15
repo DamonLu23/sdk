@@ -22,3 +22,14 @@ print(n, m)
 
 
 # todo: convert log2(x) to ieee format
+
+
+# matrix multiplication
+import numpy as np
+
+
+a = np.array([[0,1],[2,0]])
+b = np.array([[3],[2]])
+print(a)
+print(b)
+print(np.dot(a,b))
